@@ -1,0 +1,1 @@
+export { JoinGroupPage } from './screen';
