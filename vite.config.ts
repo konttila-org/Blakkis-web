@@ -6,11 +6,8 @@ import path from 'path';
 /**
  * @see https://vitejs.dev/config/
  */
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react(), eslintPlugin()],
-  resolve: {
-    alias: {
-      '@': path.resolve('./src'),
-    },
-  },
-});
+  // For custom domain, always use root path
+  base: '/',
+}));
