@@ -54,7 +54,7 @@ export const HomePage = () => {
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm text-gray-500">
-              © 2024 Blakkis. All rights reserved.
+              © {new Date().getFullYear()} Blakkis. All rights reserved.
             </p>
           </div>
         </div>
