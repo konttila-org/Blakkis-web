@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.blakkis",
+        "sha256_cert_fingerprints": [
+          "BD:0D:E9:D8:95:1A:11:70:48:25:D9:40:3B:B1:E1:33:64:68:C5:FE:CD:44:0C:94:75:F0:51:76:11:43:C7:1B"
+        ]
+      }
+    }
+  ]

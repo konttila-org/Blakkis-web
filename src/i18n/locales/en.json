@@ -1,0 +1,116 @@
+{
+  "common": {
+    "blakkis": "Blakkis",
+    "copyright": "© {{year}} Blakkis. All rights reserved.",
+    "email": "info@blakkis.com"
+  },
+  "homepage": {
+    "title": "Social Drinking",
+    "subtitle": "Companion",
+    "description": "Track your drinks and connect with friends in real-time.",
+    "googlePlayAlt": "Get it on Google Play",
+    "appStoreAlt": "Download on the App Store"
+  },
+  "joinGroup": {
+    "title": "Join group",
+    "autoOpening": "We're trying to open the Blakkis app automatically...",
+    "manualInstructions": "If the app didn't open automatically, you can try opening it manually:",
+    "openAppButton": "Open Blakkis App",
+    "installNote": "Make sure you have the Blakkis app installed on your device."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "opening": "Opening your email app to contact us...",
+    "troubleTitle": "Having trouble?",
+    "troubleDescription": "If your email app didn't open automatically, you can manually send an email to:",
+    "responseTime": "We typically respond within 24-48 hours."
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home"
+  },
+  "privacy": {
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "18 of July 2025",
+    "intro": "Blakkis 🐐 (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy describes how we collect, use, and protect your information when you use the Blakkis mobile application (\"the App\").",
+    "purposeTitle": "App Purpose and Limitations",
+    "purposeDescription": "Blakkis is specifically designed as a social drink tracking application, not a Blood Alcohol Content (BAC) calculator. Our app:",
+    "purposeList": {
+      "noBac": "Does NOT calculate Blood Alcohol Content: Blakkis does not attempt to measure or calculate your actual blood alcohol concentration.",
+      "noMedical": "Does NOT provide medical measurements: The visualizations and data presented in the app are not clinical measurements and should not be treated as such.",
+      "noDriving": "Does NOT indicate fitness to drive: Never use Blakkis to determine whether you are fit to drive, operate machinery, or engage in any activity that requires sobriety.",
+      "noAdvice": "Does NOT replace professional medical advice: The app cannot and does not attempt to predict your actual level of impairment."
+    },
+    "purposeNote1": "Blakkis is intended solely for personal tracking and social sharing of drink consumption patterns. The impact visualizations in the app are rough approximations based on self-reported data and general population models, which cannot account for individual physiological differences that affect how alcohol is processed by your body.",
+    "purposeNote2": "For accurate information about alcohol's effects, please consult medical professionals. Never make health or safety decisions based on information provided by this app.",
+    "section1Title": "1. Information We Collect",
+    "section1aTitle": "a. Personal Information (User-Provided)",
+    "section1aDescription": "When you use the app, you may provide limited personal data used for visualizing your drink consumption patterns and enabling group functionality:",
+    "section1aList": {
+      "nickname": "Nickname (user-chosen; no real name required)",
+      "birthYear": "Birth year",
+      "gender": "Biological sex/gender",
+      "measurements": "Weight and height"
+    },
+    "section1aNote": "This data is stored securely on our cloud-hosted backend.",
+    "section1bTitle": "b. Drink Tracking Data",
+    "section1bList": {
+      "logs": "Drink logs",
+      "visualizations": "Drink impact visualization data",
+      "groups": "Group participation data (if applicable)"
+    },
+    "section1bNote": "These are also stored in the cloud to enable syncing across devices and group sharing features.",
+    "section2Title": "2. How We Use Your Information",
+    "section2Description": "We use your data only to:",
+    "section2List": {
+      "visualizations": "Display visualizations of your drink consumption patterns",
+      "history": "Show your drinking history and consumption trends",
+      "groups": "Enable group sharing and comparisons (if opted in)",
+      "profile": "Maintain your user profile for use across sessions or devices"
+    },
+    "section2Note": "We do not use your data for advertising, third-party analytics, or any other commercial purposes.",
+    "section3Title": "3. Data Storage and Security",
+    "section3Description": "All user data is securely stored on our cloud backend with appropriate technical and organizational safeguards to protect against unauthorized access.",
+    "section3Note": "While we don't collect real names, email addresses, or phone numbers, we still treat your nickname and related data with care, using encryption and secure connections (e.g., HTTPS) at all times.",
+    "section4Title": "4. Data Sharing",
+    "section4Description": "We do not sell, rent, or share your data with third parties.",
+    "section4GroupDescription": "If you choose to join or create a group, only the following information is shared and visible to other group members:",
+    "section4GroupList": {
+      "nickname": "Your nickname",
+      "visualizations": "Your drink consumption visualizations"
+    },
+    "section4PrivateNote": "Your gender, weight, height, birth year, or any other personal attributes are never visible to others. This sensitive information is used only for internal visualization calculations and is stored securely.",
+    "section4LeaveNote": "You may leave a group at any time to stop sharing data with other members.",
+    "section5Title": "5. User-Generated Content & Groups",
+    "section5Description": "Blakkis includes optional group functionality, allowing users to compare their drinking logs and consumption visualizations with friends or others.",
+    "section5VisibilityDescription": "Within a group, members will only see:",
+    "section5VisibilityList": {
+      "nickname": "Your nickname",
+      "logs": "Your logged drinks",
+      "visualizations": "Your drink consumption visualizations"
+    },
+    "section5PrivacyNote": "We intentionally limit visibility to protect your privacy. Personal characteristics such as weight, height, gender, and birth year are never shown to other users.",
+    "section5ReportNote": "We encourage respectful participation in groups. If inappropriate behavior occurs, please report it by contacting us at info@blakkis.com.",
+    "section6Title": "6. Your Rights",
+    "section6Description": "You have the right to:",
+    "section6List": {
+      "view": "View your stored data",
+      "delete": "Delete your account and all associated data upon request",
+      "contact": "Contact us with questions or concerns"
+    },
+    "section6DeleteNote": "You can request data deletion by emailing us at info@blakkis.com.",
+    "section7Title": "7. Children's Privacy",
+    "section7Description": "Blakkis is intended for users 17 years and older. We do not knowingly collect information from individuals under 17. If we learn that someone under 17 has provided data, we will delete it immediately.",
+    "section8Title": "8. Changes to This Policy",
+    "section8Description": "We may update this Privacy Policy from time to time. When we do, we'll revise the \"Last updated\" date above. We encourage you to review this page periodically.",
+    "section9Title": "9. Contact Us",
+    "section9Description": "If you have any questions or concerns about this Privacy Policy, please contact us:"
+  },
+  "languageSwitcher": {
+    "language": "Language",
+    "english": "English",
+    "finnish": "Suomi"
+  }
+}

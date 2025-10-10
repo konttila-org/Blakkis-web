@@ -1,0 +1,117 @@
+{
+  "common": {
+    "blakkis": "Blakkis",
+    "copyright": "© {{year}} Blakkis. Kaikki oikeudet pidätetään.",
+    "email": "info@blakkis.com"
+  },
+  "homepage": {
+    "title": "Sosiaalinen Juominen",
+    "subtitle": "Kaveri",
+    "description": "Seuraa juomisiasi ja yhdisty kavereiden kanssa reaaliajassa.",
+    "googlePlayAlt": "Lataa Google Playsta",
+    "appStoreAlt": "Lataa App Storesta"
+  },
+  "joinGroup": {
+    "title": "Liity ryhmään",
+    "autoOpening": "Yritämme avata Blakkis-sovelluksen automaattisesti...",
+    "manualInstructions": "Jos sovellus ei auennut automaattisesti, voit yrittää avata sen manuaalisesti:",
+    "openAppButton": "Avaa Blakkis-sovellus",
+    "installNote": "Varmista, että Blakkis-sovellus on asennettu laitteellesi."
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "opening": "Avataan sähköpostisovellustasi ottaaksemme yhteyttä...",
+    "troubleTitle": "Ongelma?",
+    "troubleDescription": "Jos sähköpostisovelluksesi ei auennut automaattisesti, voit lähettää sähköpostin manuaalisesti:",
+    "responseTime": "Vastaamme yleensä 24-48 tunnin sisällä."
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Sivua ei löytynyt",
+    "description": "Etsimääsi sivua ei ole olemassa tai se on siirretty.",
+    "goHome": "Takaisin etusivulle"
+  },
+  "privacy": {
+    "lastUpdated": "Viimeksi päivitetty:",
+    "lastUpdatedDate": "18. heinäkuuta 2025",
+    "intro": "Blakkis 🐐 (\"me\", \"meidän\" tai \"meitä\") on sitoutunut suojelemaan yksityisyyttäsi. Tämä tietosuojakäytäntö kuvaa, kuinka keräämme, käytämme ja suojaamme tietojasi, kun käytät Blakkis-mobiilisovellusta (\"Sovellus\").",
+    "purposeTitle": "Sovelluksen tarkoitus ja rajoitukset",
+    "purposeDescription": "Blakkis on suunniteltu erityisesti sosiaaliseksi juomien seurantasovellukseksi, ei veren alkoholipitoisuuden (BAC) laskuriksi. Sovelluksemme:",
+    "purposeList": {
+      "noBac": "EI laske veren alkoholipitoisuutta: Blakkis ei yritä mitata tai laskea todellista veren alkoholipitoisuuttasi.",
+      "noMedical": "EI tarjoa lääketieteellisiä mittauksia: Sovelluksen visualisoinnit ja data eivät ole kliinisiä mittauksia, eikä niitä pidä käsitellä sellaisina.",
+      "noDriving": "EI kerro ajokuntoisuudesta: Älä koskaan käytä Blakkista määrittämään, oletko kunnossa ajamaan, käyttämään koneita tai osallistumaan toimintaan, joka vaatii raittiutta.",
+      "noAdvice": "EI korvaa ammattimaista lääketieteellistä neuvontaa: Sovellus ei voi eikä yritä ennustaa todellista heikentymisen tasoasi."
+    },
+    "purposeNote1": "Blakkis on tarkoitettu ainoastaan henkilökohtaiseen seurantaan ja juomiskuvioiden sosiaaliseen jakamiseen. Sovelluksen vaikutusvisualisoinnit ovat karkeita arvioita, jotka perustuvat itse raportoituun dataan ja yleisiin väestömalleihin, jotka eivät voi ottaa huomioon yksilöllisiä fysiologisia eroja, jotka vaikuttavat siihen, miten kehosi käsittelee alkoholia.",
+    "purposeNote2": "Tarkkojen tietojen saamiseksi alkoholin vaikutuksista, ota yhteyttä lääketieteen ammattilaisiin. Älä koskaan tee terveys- tai turvallisuuspäätöksiä tämän sovelluksen antamien tietojen perusteella.",
+    "section1Title": "1. Keräämämme tiedot",
+    "section1aTitle": "a. Henkilötiedot (käyttäjän antamat)",
+    "section1aDescription": "Kun käytät sovellusta, saatat antaa rajoitettuja henkilötietoja, joita käytetään juomiskuvioidesi visualisointiin ja ryhmätoimintojen mahdollistamiseen:",
+    "section1aList": {
+      "nickname": "Lempinimi (käyttäjän valitsema; oikeaa nimeä ei vaadita)",
+      "birthYear": "Syntymävuosi",
+      "gender": "Biologinen sukupuoli",
+      "measurements": "Paino ja pituus"
+    },
+    "section1aNote": "Nämä tiedot tallennetaan turvallisesti pilvipalveluumme.",
+    "section1bTitle": "b. Juomien seurantatiedot",
+    "section1bList": {
+      "logs": "Juomalokit",
+      "visualizations": "Juomien vaikutusvisualisointitiedot",
+      "groups": "Ryhmäosallistumistiedot (jos sovellettavissa)"
+    },
+    "section1bNote": "Nämäkin tallennetaan pilveen synkronoinnin ja ryhmäjakoominaisuuksien mahdollistamiseksi eri laitteiden välillä.",
+    "section2Title": "2. Kuinka käytämme tietojasi",
+    "section2Description": "Käytämme tietojasi ainoastaan:",
+    "section2List": {
+      "visualizations": "Juomiskuvioidesi visualisointien näyttämiseen",
+      "history": "Juomishistoriasi ja kulutustrendien näyttämiseen",
+      "groups": "Ryhmäjaon ja vertailujen mahdollistamiseen (jos valittu)",
+      "profile": "Käyttäjäprofiilisi ylläpitämiseen eri istuntojen ja laitteiden välillä"
+    },
+    "section2Note": "Emme käytä tietojasi mainontaan, kolmannen osapuolen analytiikkaan tai muihin kaupallisiin tarkoituksiin.",
+    "section3Title": "3. Tietojen tallennus ja turvallisuus",
+    "section3Description": "Kaikki käyttäjätiedot tallennetaan turvallisesti pilvipalveluumme asianmukaisilla teknisillä ja organisatorisilla suojatoimilla luvattoman pääsyn estämiseksi.",
+    "section3Note": "Vaikka emme kerää oikeita nimiä, sähköpostiosoitteita tai puhelinnumeroita, kohtelemme silti lempinimeäsi ja siihen liittyviä tietoja huolellisesti käyttäen salausta ja turvallisia yhteyksiä (esim. HTTPS) aina.",
+    "section4Title": "4. Tietojen jakaminen",
+    "section4Description": "Emme myy, vuokraa tai jaa tietojasi kolmansille osapuolille.",
+    "section4GroupDescription": "Jos päätät liittyä ryhmään tai luoda sellaisen, vain seuraavat tiedot jaetaan ja ovat näkyvissä muille ryhmän jäsenille:",
+    "section4GroupList": {
+      "nickname": "Lempinimesi",
+      "visualizations": "Juomiskulutuksen visualisointisi"
+    },
+    "section4PrivateNote": "Sukupuolesi, painosi, pituutesi, syntymävuotesi tai muut henkilökohtaiset ominaisuutesi eivät ole koskaan näkyvissä muille. Näitä arkaluonteisia tietoja käytetään vain sisäisiin visualisointilaskelmiin ja ne tallennetaan turvallisesti.",
+    "section4LeaveNote": "Voit poistua ryhmästä milloin tahansa lopettaaksesi tietojen jakamisen muiden jäsenten kanssa.",
+    "section5Title": "5. Käyttäjien luoma sisältö ja ryhmät",
+    "section5Description": "Blakkis sisältää valinnaisen ryhmätoiminnon, jonka avulla käyttäjät voivat vertailla juomalokkejaan ja kulutusvisualisointejaan kavereiden tai muiden kanssa.",
+    "section5VisibilityDescription": "Ryhmässä jäsenet näkevät vain:",
+    "section5VisibilityList": {
+      "nickname": "Lempinimesi",
+      "logs": "Kirjaamasi juomat",
+      "visualizations": "Juomiskulutuksen visualisointisi"
+    },
+    "section5PrivacyNote": "Rajoitamme tarkoituksella näkyvyyttä yksityisyytesi suojaamiseksi. Henkilökohtaisia ominaisuuksia kuten painoa, pituutta, sukupuolta ja syntymävuotta ei koskaan näytetä muille käyttäjille.",
+    "section5ReportNote": "Kannustamme kunnioittavaan osallistumiseen ryhmissä. Jos sopimaton käyttäytyminen ilmenee, ilmoita siitä ottamalla yhteyttä osoitteeseen info@blakkis.com.",
+    "section6Title": "6. Oikeutesi",
+    "section6Description": "Sinulla on oikeus:",
+    "section6List": {
+      "view": "Tarkastella tallennettuja tietojasi",
+      "delete": "Poistaa tilisi ja kaikki siihen liittyvät tiedot pyynnöstä",
+      "contact": "Ottaa yhteyttä kysymysten tai huolenaiheiden kanssa"
+    },
+    "section6DeleteNote": "Voit pyytää tietojen poistamista lähettämällä sähköpostia osoitteeseen info@blakkis.com.",
+    "section7Title": "7. Lasten yksityisyys",
+    "section7Description": "Blakkis on tarkoitettu 17-vuotiaille ja sitä vanhemmille käyttäjille. Emme tietoisesti kerää tietoja alle 17-vuotiailta henkilöiltä. Jos saamme tietää, että alle 17-vuotias on antanut tietoja, poistamme ne välittömästi.",
+    "section8Title": "8. Muutokset tähän käytäntöön",
+    "section8Description": "Saatamme päivittää tätä tietosuojakäytäntöä aika ajoin. Kun teemme niin, tarkistamme yllä olevan \"Viimeksi päivitetty\" -päivämäärän. Kannustamme sinua tarkistamaan tämän sivun säännöllisesti.",
+    "section9Title": "9. Ota yhteyttä",
+    "section9Description": "Jos sinulla on kysymyksiä tai huolenaiheita tästä tietosuojakäytännöstä, ota yhteyttä:"
+  },
+  "languageSwitcher": {
+    "language": "Kieli",
+    "english": "English",
+    "finnish": "Suomi"
+  }
+}
+

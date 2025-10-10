@@ -3,8 +3,8 @@ import {
   HomePage,
   JoinGroupPage,
   NotFound404Page,
-  PrivacyPolicyPage,
-  ContactPage,
+  // PrivacyPolicyPage,
+  // ContactPage,
 } from './pages';
 
 const App = () => {
@@ -12,8 +12,8 @@ const App = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/group/join/:id" element={<JoinGroupPage />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-      <Route path="/contact" element={<ContactPage />} />
+      {/* <Route path="/privacy-policy" element={<PrivacyPolicyPage />} /> */}
+      {/* <Route path="/contact" element={<ContactPage />} /> */}
       <Route path="*" element={<NotFound404Page />} />
     </Routes>
   );

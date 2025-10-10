@@ -3,11 +3,11 @@ export const PrivacyPolicyPage = () => {
     <div className="mx-auto max-w-4xl px-4 py-8">
       <div className="prose prose-lg mx-auto">
         <p className="mb-6 text-sm text-gray-600">
-          <strong>Last updated:</strong> 18 of July 2025
+          <strong>Last updated:</strong> 10 of October 2025
         </p>
 
         <p className="mb-6 text-lg">
-          Blakkis 🐐 ("we", "our", or "us") is committed to protecting your
+          Blakkis ("we", "our", or "us") is committed to protecting your
           privacy. This Privacy Policy describes how we collect, use, and
           protect your information when you use the Blakkis mobile application
           ("the App").
@@ -85,15 +85,21 @@ export const PrivacyPolicyPage = () => {
             <strong>Nickname</strong> (user-chosen; no real name required)
           </li>
           <li>
-            <strong>Birth year</strong>
+            <strong>Birth year</strong> (optional)
           </li>
           <li>
-            <strong>Biological sex/gender</strong>
+            <strong>Biological sex/gender</strong> (optional)
           </li>
           <li>
-            <strong>Weight and height</strong>
+            <strong>Weight and height</strong> (optional)
           </li>
         </ul>
+        <p className="mb-4">
+          <strong>Important:</strong> Weight, height, birth year, and gender are{' '}
+          <strong>completely optional</strong>. These fields are only used to
+          make the drink impact estimations more accurate and personalized. You
+          can use the app fully without providing this information.
+        </p>
         <p className="mb-6">
           This data is stored securely on our{' '}
           <strong>cloud-hosted backend</strong>.

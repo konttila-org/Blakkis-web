@@ -1,8 +1,10 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const JoinGroupPage = () => {
   const { id } = useParams<{ id: string }>();
+  const { t } = useTranslation();
 
   const openDeeplink = () => {
     if (id) {
@@ -17,26 +19,24 @@ export const JoinGroupPage = () => {
 
   return (
     <div className="p-8 text-center">
-      <h1 className="mb-6 text-3xl font-bold">join group {id}</h1>
+      <h1 className="mb-6 text-3xl font-bold">{t('joinGroup.title')}</h1>
 
       <div className="mx-auto max-w-md space-y-4">
-        <p className="text-gray-600">
-          We're trying to open the Blakkis app automatically...
-        </p>
+        <p className="text-gray-600">{t('joinGroup.autoOpening')}</p>
 
         <p className="text-sm text-gray-500">
-          If the app didn't open automatically, you can try opening it manually:
+          {t('joinGroup.manualInstructions')}
         </p>
 
         <button
           onClick={openDeeplink}
           className="rounded-lg bg-blue-500 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-600"
         >
-          Open Blakkis App
+          {t('joinGroup.openAppButton')}
         </button>
 
         <p className="mt-4 text-xs text-gray-400">
-          Make sure you have the Blakkis app installed on your device.
+          {t('joinGroup.installNote')}
         </p>
       </div>
     </div>
