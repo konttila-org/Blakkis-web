@@ -13,8 +13,21 @@ export const JoinGroupPage = () => {
   };
 
   useEffect(() => {
+    // Add Smart App Banner meta tag for iOS
+    const smartBannerMeta = document.createElement('meta');
+    smartBannerMeta.name = 'apple-itunes-app';
+    smartBannerMeta.content = `app-id=6746957115, app-argument=blakkis://join/${
+      id || ''
+    }`;
+    document.head.appendChild(smartBannerMeta);
+
     // Automatically try to open the deeplink when the page loads
     openDeeplink();
+
+    // Cleanup: remove the meta tag when component unmounts
+    return () => {
+      document.head.removeChild(smartBannerMeta);
+    };
   }, [id]);
 
   return (
