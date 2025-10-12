@@ -12,11 +12,10 @@
     "appStoreAlt": "Lataa App Storesta"
   },
   "joinGroup": {
-    "title": "Liity ryhmään",
-    "autoOpening": "Yritämme avata Blakkis-sovelluksen automaattisesti...",
-    "manualInstructions": "Jos sovellus ei auennut automaattisesti, voit yrittää avata sen manuaalisesti:",
-    "openAppButton": "Avaa Blakkis-sovellus",
-    "installNote": "Varmista, että Blakkis-sovellus on asennettu laitteellesi."
+    "title": "Liity porukkaan",
+    "description": "Klikkaa alla olevaa nappia liittyäksesi porukkaan Blakkis-sovelluksessa.",
+    "joinButton": "Liity porukkaan",
+    "downloadNote": "Eikö sinulla ole vielä sovellusta? Lataa se nyt:"
   },
   "contact": {
     "title": "Ota yhteyttä",
@@ -47,7 +46,7 @@
     "purposeNote2": "Tarkkojen tietojen saamiseksi alkoholin vaikutuksista, ota yhteyttä lääketieteen ammattilaisiin. Älä koskaan tee terveys- tai turvallisuuspäätöksiä tämän sovelluksen antamien tietojen perusteella.",
     "section1Title": "1. Keräämämme tiedot",
     "section1aTitle": "a. Henkilötiedot (käyttäjän antamat)",
-    "section1aDescription": "Kun käytät sovellusta, saatat antaa rajoitettuja henkilötietoja, joita käytetään juomiskuvioidesi visualisointiin ja ryhmätoimintojen mahdollistamiseen:",
+    "section1aDescription": "Kun käytät sovellusta, saatat antaa rajoitettuja henkilötietoja, joita käytetään juomiskuvioidesi visualisointiin ja porukkatoimintojen mahdollistamiseen:",
     "section1aList": {
       "nickname": "Lempinimi (käyttäjän valitsema; oikeaa nimeä ei vaadita)",
       "birthYear": "Syntymävuosi",
@@ -59,15 +58,15 @@
     "section1bList": {
       "logs": "Juomalokit",
       "visualizations": "Juomien vaikutusvisualisointitiedot",
-      "groups": "Ryhmäosallistumistiedot (jos sovellettavissa)"
+      "groups": "Porukkaosallistumistiedot (jos sovellettavissa)"
     },
-    "section1bNote": "Nämäkin tallennetaan pilveen synkronoinnin ja ryhmäjakoominaisuuksien mahdollistamiseksi eri laitteiden välillä.",
+    "section1bNote": "Nämäkin tallennetaan pilveen synkronoinnin ja porukkajakoominaisuuksien mahdollistamiseksi eri laitteiden välillä.",
     "section2Title": "2. Kuinka käytämme tietojasi",
     "section2Description": "Käytämme tietojasi ainoastaan:",
     "section2List": {
       "visualizations": "Juomiskuvioidesi visualisointien näyttämiseen",
       "history": "Juomishistoriasi ja kulutustrendien näyttämiseen",
-      "groups": "Ryhmäjaon ja vertailujen mahdollistamiseen (jos valittu)",
+      "groups": "Porukkajaon ja vertailujen mahdollistamiseen (jos valittu)",
       "profile": "Käyttäjäprofiilisi ylläpitämiseen eri istuntojen ja laitteiden välillä"
     },
     "section2Note": "Emme käytä tietojasi mainontaan, kolmannen osapuolen analytiikkaan tai muihin kaupallisiin tarkoituksiin.",
@@ -76,23 +75,23 @@
     "section3Note": "Vaikka emme kerää oikeita nimiä, sähköpostiosoitteita tai puhelinnumeroita, kohtelemme silti lempinimeäsi ja siihen liittyviä tietoja huolellisesti käyttäen salausta ja turvallisia yhteyksiä (esim. HTTPS) aina.",
     "section4Title": "4. Tietojen jakaminen",
     "section4Description": "Emme myy, vuokraa tai jaa tietojasi kolmansille osapuolille.",
-    "section4GroupDescription": "Jos päätät liittyä ryhmään tai luoda sellaisen, vain seuraavat tiedot jaetaan ja ovat näkyvissä muille ryhmän jäsenille:",
+    "section4GroupDescription": "Jos päätät liittyä porukkaan tai luoda sellaisen, vain seuraavat tiedot jaetaan ja ovat näkyvissä muille porukan jäsenille:",
     "section4GroupList": {
       "nickname": "Lempinimesi",
       "visualizations": "Juomiskulutuksen visualisointisi"
     },
     "section4PrivateNote": "Sukupuolesi, painosi, pituutesi, syntymävuotesi tai muut henkilökohtaiset ominaisuutesi eivät ole koskaan näkyvissä muille. Näitä arkaluonteisia tietoja käytetään vain sisäisiin visualisointilaskelmiin ja ne tallennetaan turvallisesti.",
-    "section4LeaveNote": "Voit poistua ryhmästä milloin tahansa lopettaaksesi tietojen jakamisen muiden jäsenten kanssa.",
-    "section5Title": "5. Käyttäjien luoma sisältö ja ryhmät",
-    "section5Description": "Blakkis sisältää valinnaisen ryhmätoiminnon, jonka avulla käyttäjät voivat vertailla juomalokkejaan ja kulutusvisualisointejaan kavereiden tai muiden kanssa.",
-    "section5VisibilityDescription": "Ryhmässä jäsenet näkevät vain:",
+    "section4LeaveNote": "Voit poistua porukasta milloin tahansa lopettaaksesi tietojen jakamisen muiden jäsenten kanssa.",
+    "section5Title": "5. Käyttäjien luoma sisältö ja porukat",
+    "section5Description": "Blakkis sisältää valinnaisen porukkatoiminnon, jonka avulla käyttäjät voivat vertailla juomalokkejaan ja kulutusvisualisointejaan kavereiden tai muiden kanssa.",
+    "section5VisibilityDescription": "Porukassa jäsenet näkevät vain:",
     "section5VisibilityList": {
       "nickname": "Lempinimesi",
       "logs": "Kirjaamasi juomat",
       "visualizations": "Juomiskulutuksen visualisointisi"
     },
     "section5PrivacyNote": "Rajoitamme tarkoituksella näkyvyyttä yksityisyytesi suojaamiseksi. Henkilökohtaisia ominaisuuksia kuten painoa, pituutta, sukupuolta ja syntymävuotta ei koskaan näytetä muille käyttäjille.",
-    "section5ReportNote": "Kannustamme kunnioittavaan osallistumiseen ryhmissä. Jos sopimaton käyttäytyminen ilmenee, ilmoita siitä ottamalla yhteyttä osoitteeseen info@blakkis.com.",
+    "section5ReportNote": "Kannustamme kunnioittavaan osallistumiseen porukoissa. Jos sopimaton käyttäytyminen ilmenee, ilmoita siitä ottamalla yhteyttä osoitteeseen info@blakkis.com.",
     "section6Title": "6. Oikeutesi",
     "section6Description": "Sinulla on oikeus:",
     "section6List": {
