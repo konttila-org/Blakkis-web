@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["V4NS63J8Z8.com.blakkis"],
+        "paths": ["/group/join/*"]
+      }
+    ]
+  }
+}
